@@ -19,7 +19,7 @@
     {
         $app = new App2;
         $actual = $app->stepOne('s');
-        $this->assertEquals('30', $actual);
+        $this->assertEquals('Please use integer as input.', $actual);
     }
     
     public function test_30a(): void
